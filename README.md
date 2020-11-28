@@ -1,6 +1,8 @@
 # Car Configurator
 
-A 3D model viewing website created using [ThreeJs](https://threejs.com/) library combined with [Babel 7](https://babeljs.io/), [Webpack 4](https://webpack.js.org/), [PostCSS](https://postcss.org/), [Jest](https://jestjs.io/), [ESLint](https://eslint.org/), and [Stylelint](https://stylelint.io/).
+[LiveDemo](https://carconfig.netlify.app/)
+
+A 3D model viewing website created using [ThreeJs](https://threejs.org/) library combined with [Babel 7](https://babeljs.io/), [Webpack 4](https://webpack.js.org/), [PostCSS](https://postcss.org/), [Jest](https://jestjs.io/), [ESLint](https://eslint.org/), and [Stylelint](https://stylelint.io/).
 
 # Prerequisites
 
