@@ -1,0 +1,135 @@
+/* Import reset for HTML element styling. */
+@import './_reset.css';
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+/* .wrapper {
+  text-align: left;
+} */
+
+@media (orientation: landscape) {
+  body {
+    margin: 0;
+    width: 100vh;
+  }
+}
+
+.logo {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  width: 40vmin;
+  height: 12vmin;
+}
+
+.exButton {
+  position: absolute;
+  top: 10em;
+  right: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 3vmin;
+  font-weight: bold;
+  padding: 1em 1em 1em 1em;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.inButton {
+  position: absolute;
+  top: 13em;
+  right: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 3vmin;
+  font-weight: bold;
+  padding: 1em 1em 1em 1em;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.colorPickerExt {
+  position: absolute;
+  bottom: 1.5em;
+  left: 1.5em;
+  display: flex;
+  width: 50vmin;
+  height: 10vmin;
+}
+
+.colorPickerExt > * {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  margin: 0 5px;
+  border: 0 solid black;
+}
+
+.colorPickerInt {
+  position: absolute;
+  bottom: 1.5em;
+  left: 1.5em;
+  display: flex;
+  width: 50vmin;
+  height: 10vmin;
+}
+
+.colorPickerInt > * {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  margin: 0 5px;
+  border: 0 solid black;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+canvas {
+  display: block;
+}
